@@ -14,6 +14,7 @@ public class Definitions {
 	WebDriver driver=new FirefoxDriver();
 	driver.navigate().to("https://www.facebook.com/");
 	driver.manage().window().maximize();
+	System.out.println("Hello browser sucessfully launch");
 	}
 
 }
